@@ -1,3 +1,6 @@
+# Create a Go module.
+go mod init learngo
+
 # Running a Go program:
 
 ## 1. Install(copy) the binary to location `~/go/bin`.
