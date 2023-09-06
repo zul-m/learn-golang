@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var age int = 29 // variable declaration with initial value
-
+	var age = 29 // type will be inferred
 	fmt.Println("My age is", age)
 }
