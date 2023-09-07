@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var width, height int
-	fmt.Println("Width is", width, "and height is", height)
-	width = 100
-	height = 50
-	fmt.Println("New width is", width, "and new height is", height)
+	var (
+		name   = "mumu"
+		age    = 28
+		height int
+	)
+	fmt.Println("My name is", name, "age", age, "years old, and height is", height)
 }
