@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var age = 29 // type will be inferred
-	fmt.Println("My age is", age)
+	var (
+		name   = "mumu"
+		age    = 28
+		height int
+	)
+	fmt.Println("My name is", name, "age", age, "years old, and height is", height)
 }
