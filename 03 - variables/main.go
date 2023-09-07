@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var age = 29 // type will be inferred
-	fmt.Println("My age is", age)
+	var width, height int = 100, 50 // declaring multiple variables
+
+	fmt.Println("Width is", width, "and height is", height)
 }
