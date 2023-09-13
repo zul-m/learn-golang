@@ -1,12 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	var (
-		name   = "mumu"
-		age    = 28
-		height int
-	)
-	fmt.Println("My name is", name, "age", age, "years old, and height is", height)
+	a, b := 145.8, 543.8
+	c := math.Min(a, b)
+	fmt.Println("Minimum value is", c)
 }
